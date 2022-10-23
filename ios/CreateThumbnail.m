@@ -39,7 +39,7 @@ RCT_EXPORT_METHOD(create:(NSDictionary *)config findEventsWithResolver:(RCTPromi
         NSURL *vidURL = nil;
         NSString *url_ = [url lowercaseString];
 
-        if ([url_ hasPrefix:@"http://"] || [url_ hasPrefix:@"https://"] || [url_ hasPrefix:@"file://"]) {
+        if ([url_ hasPrefix:@"http://"] || [url_ hasPrefix:@"https://"] || [url_ hasPrefix:@"file://"] || [url_ hasPrefix:@"assets-library://"]) {
             vidURL = [NSURL URLWithString:url];
         } else {
             // Consider it's file url path 
