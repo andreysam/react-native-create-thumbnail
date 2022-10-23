@@ -5458,7 +5458,7 @@ react-native-codegen@^0.69.2:
     nullthrows "^1.1.1"
 
 "react-native-create-thumbnail@file:..":
-  version "1.6.2"
+  version "2.0.0-rc.2"
 
 react-native-gradle-plugin@^0.0.7:
   version "0.0.7"
